@@ -5,10 +5,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ThemeProvider>
-          <div className="App">
-            <h1>GitHub Repository Explorer</h1>
-            {children}
-          </div>
+          <div className="App">{children}</div>
         </ThemeProvider>
       </body>
     </html>
