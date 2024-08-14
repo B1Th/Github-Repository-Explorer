@@ -18,14 +18,22 @@ export default function Search({ onSearch, initialValue = "" }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Enter GitHub username"
-      />
-      <button type="submit">Search</button>
-    </form>
+    <div className="w-screen text-center mt-16">
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Enter GitHub username"
+          className="w-[20%] text-black h-10 rounded m-3"
+        />
+        <button
+          type="submit"
+          className="w-[10%] h-10 border-2 border-white rounded"
+        >
+          Search
+        </button>
+      </form>
+    </div>
   );
 }
