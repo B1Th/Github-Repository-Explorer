@@ -1,6 +1,6 @@
-const ImgGallary = () => {
+const ImgGallary = ({ className }) => {
   return (
-    <div className="w-screen flex justify-center items-center">
+    <div className={`w-screen flex justify-center items-center ${className}`}>
       <div className=" w-[80%] flex justify-between">
         <div className="w-[60%] overflow-hidden">
           <img src="/catlogo.jpg" alt="catlogo" className="rounded-3xl" />

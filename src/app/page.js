@@ -1,5 +1,6 @@
 "use client";
 
+import Browse from "@/components/Browse";
 import "./globals.css";
 
 import Hero from "@/components/Hero";
@@ -11,7 +12,8 @@ export default function Home() {
     <div>
       <Hero />
       <Start />
-      <ImgGallary />
+      <ImgGallary className="mt-24" />
+      <Browse />
     </div>
   );
 }
