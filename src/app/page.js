@@ -6,6 +6,7 @@ import "./globals.css";
 import Hero from "@/components/Hero";
 import ImgGallary from "@/components/ImgGallary";
 import Start from "@/components/Start";
+import Community from "@/components/Community";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <Hero />
       <Start />
       <ImgGallary className="mt-24" />
-      <Browse />
+      <Browse className="mt-24" />
+      <Community className="mt-24" />
     </div>
   );
 }
