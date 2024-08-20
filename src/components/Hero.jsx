@@ -7,13 +7,13 @@ const Hero = () => {
 
       <div className="px-20 h-screen w-screen">
         <Navbar />
-        <section className="relative h-[90%] z-10 flex items-center flex-col ">
-          <div className="flex justify-center items-center">
-            <h1 className="text-8xl font-extrabold">
+        <section className="relative h-[90%] z-10 flex justify-center items-center flex-col ">
+          <div className="flex border-2 border-white justify-center items-center">
+            <h1 className="w-[34%] text-8xl font-extrabold">
               Discover <br /> The
             </h1>
-            <img src="/github.png" alt="github logo" />
-            <h1 className="text-8xl font-extrabold text-right">
+            <img src="/github.png" alt="github logo" className="w-[33%]" />
+            <h1 className=" w-[33%] text-8xl font-extrabold text-right">
               Github <br /> Universe
             </h1>
           </div>
