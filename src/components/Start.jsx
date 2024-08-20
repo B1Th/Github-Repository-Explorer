@@ -3,6 +3,7 @@ import Search from "../components/Search";
 import { useSearchParams } from "next/navigation";
 import RepoList from "../components/RepoList";
 import Heading from "./Heading";
+import Paragraph from "./Paragraph";
 
 const Start = () => {
   const [username, setUsername] = useState("");
@@ -22,9 +23,13 @@ const Start = () => {
   return (
     <div className="w-screen flex justify-center items-center flex-col mt-24">
       <Heading text="Get Started with GitHub Repository Explorer" />
-      <p className="text-[#D9D9D9] opacity-90 mt-5">
-        Type the github username below to view the list of their repositories
-      </p>
+      <Paragraph
+        text={
+          "Type the github username below to view the list of their repositories"
+        }
+        className="mt-5"
+      />
+
       <Search onSearch={handleSearch} initialValue={username} />
       {username && <RepoList username={username} />}
     </div>

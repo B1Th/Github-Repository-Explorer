@@ -1,4 +1,5 @@
 import Heading from "./Heading";
+import Paragraph from "./Paragraph";
 
 const Browse = ({ className }) => {
   return (
@@ -9,18 +10,18 @@ const Browse = ({ className }) => {
         <div className="w-[48%]">
           <div className="mb-[20%]">
             <Heading text="Browse through repository" className="mb-[5%]" />
-            <p className="text-[#D9D9D9] opacity-90">
-              Our advanced search algorithm helps you find the most relevant
-              GitHub repositories based on github’s username, including the
-              project description, languages, stars, and recent commits.
-            </p>
+            <Paragraph
+              text={
+                "Our advanced search algorithm helps you find the most relevant GitHub repositories based on github’s username, including the project description, languages, stars, and recent commits."
+              }
+            />
           </div>
           <div>
             <Heading text="Master GitHub" className="mb-[5%]" />
-            <p className="text-[#D9D9D9] opacity-90">
-              Dive deep into repository analytics by understanding commit
-              patterns, contributor dynamics, and code evolution over time.
-            </p>
+            <Paragraph
+              text="Dive deep into repository analytics by understanding commit
+              patterns, contributor dynamics, and code evolution over time."
+            />
             <p className="text-green-800 mt-[2%]">Start Your GitHub Journey</p>
           </div>
         </div>
