@@ -11,31 +11,35 @@ const Footer = () => {
             className="w-[50%] object-cover object-center"
           />
         </div>
-        <div className="w-[25%] flex justify-center items-center flex-col">
-          <ul>
-            <p className="mb-3">Explore</p>
-            <li>Home</li>
-            <li>About</li>
-            <li>Product</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div className="w-[25%] flex justify-center items-center flex-col">
-          <ul>
-            <p className="mb-3">Connect</p>
-            <li>Linkedin</li>
-            <li>Github</li>
-            <li>Instagram</li>
-          </ul>
-        </div>
-        <div className="w-[25%] flex justify-center items-center flex-col">
-          <ul>
-            <p className="mb-3">Learn</p>
-            <li>Tutorial</li>
-            <li>Documentation</li>
-            <li>Community</li>
-            <li>Support</li>
-          </ul>
+        <div className="w-[75%] flex justify-center items-center">
+          <div className="w-[75%] flex justify-between items-start text-[clamp(.2rem,1vw+.2rem,3rem)] ">
+            <div className="flex justify-center items-center flex-col">
+              <ul>
+                <p className="mb-3">Explore</p>
+                <li>Home</li>
+                <li>About</li>
+                <li>Product</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <ul>
+                <p className="mb-3">Connect</p>
+                <li>Linkedin</li>
+                <li>Github</li>
+                <li>Instagram</li>
+              </ul>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <ul>
+                <p className="mb-3">Learn</p>
+                <li>Tutorial</li>
+                <li>Documentation</li>
+                <li>Community</li>
+                <li>Support</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <Paragraph
