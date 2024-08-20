@@ -8,7 +8,7 @@ const Banner = ({ className }) => {
         <img src="/bottom2.jpg" alt="bottom2" className="w-full" />
         <Paragraph
           text={"Unlock the Secrets of Successful GitHub Projects"}
-          className="absolute top-[50%] left-[40%]"
+          className="absolute top-[50%] text-center w-full"
         />
       </div>
     </div>

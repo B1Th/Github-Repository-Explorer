@@ -18,7 +18,7 @@ export default function Home() {
       <ImgGallary className="mt-24" />
       <Browse className="mt-24" />
       <Community className="mt-24" />
-      <Banner />
+      <Banner className="mt-28" />
       <Footer />
     </div>
   );
