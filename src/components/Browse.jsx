@@ -1,3 +1,5 @@
+import Heading from "./Heading";
+
 const Browse = ({ className }) => {
   return (
     <div
@@ -6,17 +8,15 @@ const Browse = ({ className }) => {
       <div className="w-[85%] flex justify-between items-center overflow-hidden">
         <div className="w-[48%]">
           <div className="mb-[20%]">
-            <h1 className="text-5xl font-semibold mb-[5%]">
-              Browse through repository
-            </h1>
+            <Heading text="Browse through repository" className="mb-[5%]" />
             <p className="text-[#D9D9D9] opacity-90">
               Our advanced search algorithm helps you find the most relevant
               GitHub repositories based on github’s username, including the
               project description, languages, stars, and recent commits.
             </p>
           </div>
-          <div className="">
-            <h1 className="text-5xl font-semibold mb-[5%]">Master GitHub </h1>
+          <div>
+            <Heading text="Master GitHub" className="mb-[5%]" />
             <p className="text-[#D9D9D9] opacity-90">
               Dive deep into repository analytics by understanding commit
               patterns, contributor dynamics, and code evolution over time.

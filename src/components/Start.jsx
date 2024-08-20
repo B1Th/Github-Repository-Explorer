@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Search from "../components/Search";
 import { useSearchParams } from "next/navigation";
 import RepoList from "../components/RepoList";
+import Heading from "./Heading";
 
 const Start = () => {
   const [username, setUsername] = useState("");
@@ -20,9 +21,7 @@ const Start = () => {
 
   return (
     <div className="w-screen flex justify-center items-center flex-col mt-24">
-      <h1 className="text-5xl font-semibold">
-        Get Started with GitHub Repository Explorer
-      </h1>
+      <Heading text="Get Started with GitHub Repository Explorer" />
       <p className="text-[#D9D9D9] opacity-90 mt-5">
         Type the github username below to view the list of their repositories
       </p>

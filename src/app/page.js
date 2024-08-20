@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import ImgGallary from "@/components/ImgGallary";
 import Start from "@/components/Start";
 import Community from "@/components/Community";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ImgGallary className="mt-24" />
       <Browse className="mt-24" />
       <Community className="mt-24" />
+      <Banner />
     </div>
   );
 }

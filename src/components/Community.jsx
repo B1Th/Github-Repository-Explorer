@@ -1,3 +1,5 @@
+import Heading from "./Heading";
+
 const Community = ({ className }) => {
   return (
     <div
@@ -18,9 +20,10 @@ const Community = ({ className }) => {
           />
         </div>
         <div className="h-full w-[48%] flex justify-between items-center flex-col">
-          <h1 className="text-5xl font-semibold mb-8 mr-auto">
-            Embrace the <br /> GitHub Community
-          </h1>
+          <Heading
+            text="Embrace the GitHub Community"
+            className="mb-8 mr-auto"
+          />
           <div className="h-[30%] w-full rounded-2xl overflow-hidden">
             <img
               src="/community1.jpg"
