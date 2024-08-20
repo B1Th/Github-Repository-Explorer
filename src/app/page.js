@@ -8,6 +8,7 @@ import ImgGallary from "@/components/ImgGallary";
 import Start from "@/components/Start";
 import Community from "@/components/Community";
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Browse className="mt-24" />
       <Community className="mt-24" />
       <Banner />
+      <Footer />
     </div>
   );
 }
