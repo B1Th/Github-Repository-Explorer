@@ -3,8 +3,6 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <main className="relative h-screen w-screen flex justify-center overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-[url('/bg.jpg')] h-screen w-screen bg-cover bg-center opacity-20" />
-
       <div className=" h-screen w-[90%] overflow-hidden">
         <Navbar />
         <section className="relative h-[90vh] w-full z-10 flex justify-center items-center flex-col">

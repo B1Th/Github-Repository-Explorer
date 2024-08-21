@@ -9,10 +9,12 @@ import Start from "@/components/Start";
 import Community from "@/components/Community";
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
+import { BackgroundBeams } from "@/components/BackgroundBeam";
 
 export default function Home() {
   return (
     <div>
+      <BackgroundBeams />
       <Hero />
       <Start />
       <ImgGallary className="mt-24" />
