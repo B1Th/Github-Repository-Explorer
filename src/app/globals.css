@@ -30,7 +30,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-  .text-fluid {
-    font-size: clamp(0.2rem, 1vw+0.2rem, 3rem);
-  }
 }
