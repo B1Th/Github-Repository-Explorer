@@ -21,7 +21,10 @@ const Start = () => {
   };
 
   return (
-    <div className="w-screen flex justify-center items-center flex-col mt-24">
+    <div
+      className="w-screen flex justify-center items-center flex-col mt-24"
+      id="Start"
+    >
       <Heading text="Get Started with GitHub Repository Explorer" />
       <Paragraph
         text={
