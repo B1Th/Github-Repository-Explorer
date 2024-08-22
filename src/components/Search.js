@@ -25,11 +25,11 @@ export default function Search({ onSearch, initialValue = "" }) {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Enter GitHub username"
-          className="w-[40%] md:w-[25%] text-black h-12 rounded m-3"
+          className="w-[40%] md:w-[25%] text-black h-12 rounded-xl m-3 px-4 border-0 outline outline-2 outline-[#A465D7] outline-offset-4 focus:outline-offset-8 duration-150 "
         />
         <button
           type="submit"
-          className="w-[20%] md:w-[10%] h-12 border-2 border-white rounded"
+          className="w-[20%] md:w-[10%] h-12 border-2 border-white rounded-xl"
         >
           <p className="text-base">Search</p>
         </button>
