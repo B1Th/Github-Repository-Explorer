@@ -26,14 +26,14 @@ export const TracingBeam = ({ children, className }) => {
   }, []);
 
   const y1 = useSpring(
-    useTransform(scrollYProgress, [0, 0.8], [50, svgHeight]),
+    useTransform(scrollYProgress, [0, 0.8], [50, svgHeight * 1.3]),
     {
       stiffness: 500,
       damping: 90,
     }
   );
   const y2 = useSpring(
-    useTransform(scrollYProgress, [0, 1], [50, svgHeight - 200]),
+    useTransform(scrollYProgress, [0, 1], [50, svgHeight * 1.3 - 200]),
     {
       stiffness: 500,
       damping: 90,
@@ -71,14 +71,16 @@ export const TracingBeam = ({ children, className }) => {
           />
         </motion.div>
         <svg
-          viewBox={`0 0 20 ${svgHeight}`}
+          viewBox={`0 0 20 ${svgHeight * 1.3}`}
           width="20"
-          height={svgHeight} // Set the SVG height
+          height={svgHeight * 1.3} // Set the SVG height
           className="ml-4 block"
           aria-hidden="true"
         >
           <motion.path
-            d={`M 1 0V -36 l 18 24 V ${svgHeight * 0.8} l -18 24V ${svgHeight}`}
+            d={`M 1 0V -36 l 18 48 V ${svgHeight * 0.8} l -18 24V ${
+              svgHeight * 1.3
+            }`}
             fill="none"
             stroke="#9091A0"
             strokeOpacity="0.16"
