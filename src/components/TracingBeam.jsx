@@ -13,7 +13,7 @@ export const TracingBeam = ({ children, className }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end start"],
+    offset: ["start start", "end end"],
   });
 
   const contentRef = useRef(null);
@@ -89,7 +89,9 @@ export const TracingBeam = ({ children, className }) => {
             }}
           ></motion.path>
           <motion.path
-            d={`M 1 0V -36 l 18 24 V ${svgHeight * 0.8} l -18 24V ${svgHeight}`}
+            d={`M 1 0V -36 l 18 24 V ${svgHeight * 0.8} l -18 24V ${
+              svgHeight * 1.3
+            }`}
             fill="none"
             stroke="url(#gradient)"
             strokeWidth="1.25"

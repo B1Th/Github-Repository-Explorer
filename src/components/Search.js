@@ -14,7 +14,7 @@ export default function Search({ onSearch, initialValue = "" }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch(searchTerm);
-    router.push(`/?user=${searchTerm}`);
+    // router.push(`/?user=${searchTerm}`);
   };
 
   return (

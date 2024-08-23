@@ -1,4 +1,10 @@
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconMessage,
+  IconUser,
+  IconBook,
+  IconBulb,
+} from "@tabler/icons-react";
 import { FloatingNav } from "./Navbar";
 
 const navItems = [
@@ -18,9 +24,14 @@ const navItems = [
     icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
+    name: "Learn",
+    link: "/learn",
+    icon: <IconBook className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
     name: "FAQ",
     link: "/faq",
-    icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <IconBulb className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
 ];
 
