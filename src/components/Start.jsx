@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Search from "../components/Search";
+import Search from "./repo/Search";
 import { useSearchParams } from "next/navigation";
-import RepoList from "../components/RepoList";
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
+import RepoList from "../components/repo/RepoList";
+import Heading from "./assets/Heading";
+import Paragraph from "./assets/Paragraph";
 
 const Start = () => {
   const [username, setUsername] = useState("");

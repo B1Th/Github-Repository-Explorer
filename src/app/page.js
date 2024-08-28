@@ -2,15 +2,14 @@
 
 import Browse from "@/components/Browse";
 import "./globals.css";
-
 import Hero from "@/components/Hero";
 import ImgGallary from "@/components/ImgGallary";
 import Start from "@/components/Start";
 import Community from "@/components/Community";
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
-import { BackgroundBeams } from "@/components/BackgroundBeam";
-import { TracingBeam } from "@/components/TracingBeam";
+import { TracingBeam } from "@/components/assets/TracingBeam";
+import { BackgroundBeams } from "@/components/assets/BackgroundBeam";
 
 export default function Home() {
   return (

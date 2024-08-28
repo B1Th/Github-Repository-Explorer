@@ -1,4 +1,4 @@
-import Heading from "./Heading";
+import Heading from "./assets/Heading";
 
 const Community = ({ className }) => {
   return (

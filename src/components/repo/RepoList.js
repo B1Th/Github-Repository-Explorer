@@ -1,7 +1,7 @@
 "use client";
 
+import useGithubApi from "@/hooks/useGithubApi";
 import Link from "next/link";
-import useGithubApi from "../hooks/useGithubApi";
 
 export default function RepoList({ username }) {
   const {

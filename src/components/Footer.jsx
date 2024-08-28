@@ -1,4 +1,4 @@
-import Paragraph from "./Paragraph";
+import Paragraph from "./assets/Paragraph";
 
 const Footer = () => {
   return (

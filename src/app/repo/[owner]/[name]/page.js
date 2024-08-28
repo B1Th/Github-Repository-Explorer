@@ -1,5 +1,5 @@
 import Link from "next/link";
-import RepoDetails from "../../../../components/RepoDetails";
+import RepoDetails from "../../../../components/repo/RepoDetails";
 
 export default function RepoDetailsPage({ params, searchParams }) {
   return (

@@ -1,5 +1,5 @@
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
+import Heading from "./assets/Heading";
+import Paragraph from "./assets/Paragraph";
 
 const Browse = ({ className }) => {
   return (
